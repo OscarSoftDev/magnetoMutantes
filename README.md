@@ -18,11 +18,11 @@ Genera un estado de cuantos humanos, mutantes y genera su ratio.
 ******Datos de prueba*****
 El programa valida si el dna ya existe, en ese caso responde con un objeto y un mensaje indicando que ya se a insertado dicho registro,
 En caso contrario inserta el valor.
+De esta manera 
 *-----------
 *HUMANO!*|
 *-----------
 {
-  "mutant": true,
   "dna": [
     "ACCGGATAAT",
     "TGTTGTTTAC",
@@ -40,7 +40,6 @@ En caso contrario inserta el valor.
 *MUTANTE!*|
 *-----------
 {
-  "mutant": true,
   "dna": [
       "ATGCGA",
       "CAGTGC",
@@ -54,7 +53,6 @@ En caso contrario inserta el valor.
 *MUTANTE!*|
 *-----------
 {
-  "mutant": true,
   "dna": [
       "TTTTGA",
       "CAGTGC",
@@ -62,6 +60,18 @@ En caso contrario inserta el valor.
       "AGAAGG",
       "CCCCTA",
       "TCACTG"
+  ]
+}
+*-----------
+*HUMANO!*|
+*-----------
+{
+  "dna": [
+      "TTATGA",
+      "CAGTGC",
+      "TTATGT",
+      "AGAAGG",
+      "CACCTA"
   ]
 }
 
