@@ -67,11 +67,11 @@ De esta manera
 *-----------
 {
   "dna": [
-      "TTATGA",
-      "CAGTGC",
-      "TTATGT",
-      "AGAAGG",
-      "CACCTA"
+      "TTATG",
+      "CAGTG",
+      "TTATG",
+      "AGAAG",
+      "CACCT"
   ]
 }
 
