@@ -1,0 +1,27 @@
+server:
+     port: 8071
+     servlet:
+       context-path: 
+     
+spring:
+  application:
+      name: alianza
+  datasource:
+        #platform: mysql  
+        jdbc-url: jdbc:mysql://localhost:3306/alianza_mutante?serverTimezone=UTC&useLegacyDatetimeCode=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        hikari:
+            maximum-pool-size: 20
+            connection-timeout: 70000  
+           
+
+logging:
+    level:
+        org:
+            springframework:
+                  ws: TRACE
+            apache:
+                  kafka : WARN 
+
